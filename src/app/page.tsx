@@ -7,9 +7,15 @@ export default function Home() {
   return (
     <div className="flex flex-col w-full">
       <Hero />
-      <Services />
-      <Company />
-      <Contact />
+      <div className="mb-48">
+        <Services />
+      </div>
+      <div className="mb-48">
+        <Company />
+      </div>
+      <div className="mb-48">
+        <Contact />
+      </div>
     </div>
   );
 }
