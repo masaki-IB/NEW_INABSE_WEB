@@ -73,13 +73,16 @@ export default function ConsultingPage() {
             </section>
 
             {/* Features Section - Image Grid */}
-            <section className="py-32 bg-slate-950">
+            <section className="pb-32 bg-slate-950">
                 <div className="container mx-auto px-6">
+                    {/* Spacer above heading */}
+                    <div className="h-[200px]"></div>
+
                     <motion.div
                         initial={{ opacity: 0, y: 20 }}
                         whileInView={{ opacity: 1, y: 0 }}
                         viewport={{ once: true }}
-                        className="text-center mb-40"
+                        className="text-center"
                     >
                         <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">
                             サービス領域
@@ -88,6 +91,9 @@ export default function ConsultingPage() {
                             経験豊富なコンサルタントが、ビジネス課題の解決をサポート
                         </p>
                     </motion.div>
+
+                    {/* Spacer below heading */}
+                    <div className="h-[40px]"></div>
 
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                         {features.map((feature, index) => (
@@ -168,8 +174,11 @@ export default function ConsultingPage() {
                 </div>
             </section>
 
+            {/* Spacer above CTA */}
+            <div className="h-[120px] bg-slate-900"></div>
+
             {/* CTA Section */}
-            <section className="mt-32 py-32 bg-gradient-to-r from-sky-600 to-violet-600">
+            <section className="py-32 bg-gradient-to-r from-sky-600 to-violet-600">
                 <div className="container mx-auto px-6 text-center">
                     <h2 className="text-3xl md:text-4xl font-bold text-white mb-8">
                         コンサルティングのご相談はこちら
@@ -187,6 +196,9 @@ export default function ConsultingPage() {
                     </Link>
                 </div>
             </section>
+
+            {/* Spacer below CTA */}
+            <div className="h-[20px] bg-slate-900"></div>
         </div>
     );
 }
