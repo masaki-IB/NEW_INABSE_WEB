@@ -13,7 +13,7 @@ const features = [
     {
         title: 'SNSキャンペーン',
         description: '各プラットフォームに最適化したキャンペーン設計',
-        image: 'https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=800&q=80',
+        image: '/sns-campaign.png',
     },
     {
         title: 'イベント企画・運営',
