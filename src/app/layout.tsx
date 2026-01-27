@@ -10,6 +10,10 @@ const notoSansJP = Noto_Sans_JP({ subsets: ['latin'], weight: ['400', '500', '70
 export const metadata: Metadata = {
   title: 'INBASE | セールスプロモーションエージェンシー',
   description: 'INBASE（インベース）は、イベント企画・運営からデジタルマーケティングまで、最適なプロモーション施策を提供するエージェンシーです。',
+  icons: {
+    icon: '/favicon.png',
+    apple: '/favicon.png',
+  },
 };
 
 export default function RootLayout({
