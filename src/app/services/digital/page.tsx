@@ -79,7 +79,7 @@ export default function DigitalPage() {
                         initial={{ opacity: 0, y: 20 }}
                         whileInView={{ opacity: 1, y: 0 }}
                         viewport={{ once: true }}
-                        className="text-center mb-20"
+                        className="text-center mb-40"
                     >
                         <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">
                             サービス領域
@@ -128,7 +128,7 @@ export default function DigitalPage() {
             </section>
 
             {/* CTA Section */}
-            <section className="py-32 bg-gradient-to-r from-sky-600 to-violet-600">
+            <section className="mt-32 py-32 bg-gradient-to-r from-sky-600 to-violet-600">
                 <div className="container mx-auto px-6 text-center">
                     <h2 className="text-3xl md:text-4xl font-bold text-white mb-8">
                         デジタルマーケティングのご相談はこちら
