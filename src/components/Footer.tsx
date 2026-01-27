@@ -28,7 +28,7 @@ export default function Footer() {
     return (
         <footer className="bg-slate-950 border-t border-slate-800">
             <div className="container mx-auto px-6 py-16">
-                <div className="grid grid-cols-1 md:grid-cols-4 gap-12">
+                <div className="grid grid-cols-1 md:grid-cols-4 gap-12 max-w-6xl mx-auto">
                     {/* Brand */}
                     <div className="md:col-span-2">
                         <Link href="/" className="inline-block mb-4">

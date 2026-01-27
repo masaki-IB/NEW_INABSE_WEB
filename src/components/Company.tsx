@@ -17,7 +17,7 @@ const stats = [
 
 export default function Company() {
     return (
-        <section id="company" className="py-24 bg-slate-950">
+        <section id="company" className="pt-48 pb-48 bg-slate-950">
             <div className="container mx-auto px-6">
                 {/* Section Header */}
                 <motion.div
@@ -33,7 +33,7 @@ export default function Company() {
                     </h2>
                 </motion.div>
 
-                <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
+                <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center max-w-6xl mx-auto">
                     {/* Image Side */}
                     <motion.div
                         initial={{ opacity: 0, x: -30 }}

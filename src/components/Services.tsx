@@ -41,7 +41,7 @@ const services = [
 
 export default function Services() {
     return (
-        <section id="services" className="py-24 bg-slate-900">
+        <section id="services" className="pt-24 pb-48 bg-slate-900">
             <div className="container mx-auto px-6">
                 {/* Section Header */}
                 <motion.div
@@ -61,7 +61,7 @@ export default function Services() {
                 </motion.div>
 
                 {/* Services Grid */}
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-5xl mx-auto">
                     {services.map((service, index) => (
                         <Link key={service.id} href={service.href}>
                             <motion.div

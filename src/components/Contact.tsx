@@ -5,7 +5,7 @@ import { Send, MapPin, Mail, Phone } from 'lucide-react';
 
 export default function Contact() {
     return (
-        <section id="contact" className="relative py-24 overflow-hidden">
+        <section id="contact" className="relative pt-48 pb-48 overflow-hidden">
             {/* Background Image */}
             <div
                 className="absolute inset-0 z-0"
